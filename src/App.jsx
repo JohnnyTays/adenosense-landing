@@ -60,7 +60,7 @@ const Navbar = ({ scrolled, onOpenMenu }) => (
 
       <div className="flex items-center gap-4">
         <a 
-          href="https://adenosense.pages.dev/" 
+          href="https://adenosense.pages.dev/" target="_blank" rel="noopener noreferrer" 
           className="hidden sm:flex items-center gap-2 bg-white text-black hover:bg-gray-100 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all duration-300 hover:scale-105"
         >
           Get Started
@@ -151,14 +151,14 @@ const Hero = () => (
         {/* CTAs */}
         <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
           <a 
-            href="https://adenosense.pages.dev/" 
+            href="https://adenosense.pages.dev/" target="_blank" rel="noopener noreferrer" 
             className="group bg-white text-black hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 hover:scale-105 flex items-center gap-2"
           >
             Start Free Trial
             <ChevronRight className="group-hover:translate-x-1 transition-transform" size={20} />
           </a>
           <a 
-            href="https://adenosense.pages.dev/" 
+            href="https://adenosense.pages.dev/" target="_blank" rel="noopener noreferrer" 
             className="group border border-white/20 text-white hover:border-white/40 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 flex items-center gap-3"
           >
             <Play size={18} className="fill-white" />
@@ -583,7 +583,7 @@ const CTA = () => (
         <p className="text-xl text-gray-400 mb-10">Join 12,000+ high performers who've transformed their energy, focus, and recovery with AdenoSense.</p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a 
-            href="https://adenosense.pages.dev/" 
+            href="https://adenosense.pages.dev/" target="_blank" rel="noopener noreferrer" 
             className="group bg-white text-black hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 hover:scale-105 flex items-center gap-2"
           >
             Start Free Trial
