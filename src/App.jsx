@@ -99,7 +99,7 @@ const MobileMenu = ({ isOpen, onClose }) => (
               {item.label}
             </a>
           ))}
-          <a href="https://adenosense.pages.dev/" onClick={onClose} className="mt-4 bg-white text-black px-8 py-3 rounded-xl font-bold">
+          <a href="https://adenosense.pages.dev/" target="_blank" rel="noopener noreferrer" onClick={onClose} className="mt-4 bg-white text-black px-8 py-3 rounded-xl font-bold">
             Get Started
           </a>
         </div>
